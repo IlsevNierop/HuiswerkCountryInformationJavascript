@@ -1,0 +1,83 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Country information
+        etc.
+    5. Media Queries
+////////////////////////*/
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+/*CSS reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer-container {
+    display: flex;
+    width: 100%;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1200px;
+    margin-inline: 1rem;
+    text-align: center;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+/* --------------- 3.1 Reusables ----------------------- */
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+h1 {
+   font-family: "Comic Sans MS", serif;
+}
+
+
+.columns {
+    column-count:3;
+    column-width:20em;
+}
+
+/* --------------- 4.2 Country information ------------------- */
+.error-message {
+    color: red;
+}
+
+.Africa {
+    color: blue;
+}
+.Asia {
+    color: red;
+}
+.Europe {
+    color: yellow;
+}
+.Oceania {
+    color: purple;
+}
+.Americas {
+    color: green;
+}
+.Antarctic {
+    color: dimgrey;
+}
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
+

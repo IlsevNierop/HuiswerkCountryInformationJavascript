@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-container {
+  width: 100%;
+  display: flex;
+}
+
+.inner-container {
+  text-align: center;
+  flex-direction: column;
+  flex: 0 1200px;
+  margin-inline: 1rem;
+  display: flex;
+}
+
+h1 {
+  font-family: Comic Sans MS, serif;
+}
+
+.columns {
+  column-count: 3;
+  column-width: 20em;
+}
+
+.error-message {
+  color: red;
+}
+
+.Africa {
+  color: #00f;
+}
+
+.Asia {
+  color: red;
+}
+
+.Europe {
+  color: #ff0;
+}
+
+.Oceania {
+  color: purple;
+}
+
+.Americas {
+  color: green;
+}
+
+.Antarctic {
+  color: #696969;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
