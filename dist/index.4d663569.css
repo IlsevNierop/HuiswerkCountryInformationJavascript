@@ -16,7 +16,8 @@
 .inner-container {
   text-align: center;
   flex-direction: column;
-  flex: 0 1200px;
+  flex: 1200px;
+  align-items: center;
   margin-inline: 1rem;
   display: flex;
 }
@@ -25,6 +26,10 @@ h1 {
   text-transform: uppercase;
   font-family: Comic Sans MS, serif;
   font-weight: lighter;
+}
+
+img {
+  max-width: 100%;
 }
 
 body {

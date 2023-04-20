@@ -15,11 +15,7 @@
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
 :root {
-    /*--button-focus: #FBFBFB;*/
-    /*--bg-tiles: #FBFBFB;*/
-    /*--bg-buttons: #E3E4E4;*/
     --bg: #F4F4F4;
-/*    kleuren variabelen toevoegen*/
 }
 
 /*CSS reset*/
@@ -37,8 +33,11 @@
 .inner-container {
     display: flex;
     flex-direction: column;
-    flex: 0 1 1200px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 1200px;
     margin-inline: 1rem;
+    align-items: center;
     text-align: center;
 }
 
@@ -59,13 +58,10 @@ h1 {
     text-transform: uppercase;
 }
 
-
-
-
-
-
 /* --------------- 4.2 Country information ------------------- */
-
+img {
+    max-width: 100%;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
