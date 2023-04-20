@@ -81,12 +81,11 @@ h4 {
 
 .columns {
     column-count:3;
-    column-width:30em;
+    column-width:25em;
     border: 1px solid grey;
     border-radius: 5px;
     background-color: var(--bg);
     padding: 25px;
-    flex: 1 0 auto;
     list-style: none;
 }
 
