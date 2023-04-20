@@ -14,6 +14,14 @@
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
+:root {
+    /*--button-focus: #FBFBFB;*/
+    /*--bg-tiles: #FBFBFB;*/
+    /*--bg-buttons: #E3E4E4;*/
+    --bg: #F4F4F4;
+/*    kleuren variabelen toevoegen*/
+}
+
 /*CSS reset*/
 * {
     padding: 0;
@@ -47,36 +55,72 @@
 /* --------------- 4.1 Header ------------------------- */
 h1 {
    font-family: "Comic Sans MS", serif;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
 
 
-.columns {
-    column-count:3;
-    column-width:20em;
-}
+
+
+
 
 /* --------------- 4.2 Country information ------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .error-message {
     color: red;
 }
 
-.Africa {
-    color: blue;
+h4 {
+    font-size: 20px;
+    font-weight: lighter;
 }
-.Asia {
-    color: red;
+
+.columns {
+    column-count:3;
+    column-width:30em;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: var(--bg);
+    padding: 25px;
+    flex: 1 0 auto;
+    list-style: none;
 }
-.Europe {
-    color: yellow;
+
+.row-country {
+    display: flex;
+    flex-direction: row;
 }
-.Oceania {
-    color: purple;
+
+li {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
 }
-.Americas {
-    color: green;
+
+.blue {
+    color: #034791;
 }
-.Antarctic {
-    color: dimgrey;
+.red {
+    color: #B61603;
+}
+.yellow {
+    color: #F6DA06;
+}
+.purple {
+    color: #37078F;
+}
+.green {
+    color: #0D9100;
+}
+.grey {
+    color: #5D605D;
 }
 
 /* ------------------------------- 5. Media Queries -------------------------------- */

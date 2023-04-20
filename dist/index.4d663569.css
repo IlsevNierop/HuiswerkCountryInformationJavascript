@@ -1,3 +1,7 @@
+:root {
+  --bg: #f4f4f4;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,40 +22,70 @@
 }
 
 h1 {
+  text-transform: uppercase;
   font-family: Comic Sans MS, serif;
+  font-weight: lighter;
 }
 
-.columns {
-  column-count: 3;
-  column-width: 20em;
+body {
+  font-family: Roboto, sans-serif;
 }
 
 .error-message {
   color: red;
 }
 
-.Africa {
-  color: #00f;
+h4 {
+  font-size: 20px;
+  font-weight: lighter;
 }
 
-.Asia {
-  color: red;
+.columns {
+  column-count: 3;
+  column-width: 30em;
+  background-color: var(--bg);
+  border: 1px solid gray;
+  border-radius: 5px;
+  flex: 1 0 auto;
+  padding: 25px;
+  list-style: none;
 }
 
-.Europe {
-  color: #ff0;
+.row-country {
+  flex-direction: row;
+  display: flex;
 }
 
-.Oceania {
-  color: purple;
+li {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  display: flex;
+  overflow: auto;
 }
 
-.Americas {
-  color: green;
+.blue {
+  color: #034791;
 }
 
-.Antarctic {
-  color: #696969;
+.red {
+  color: #b61603;
+}
+
+.yellow {
+  color: #f6da06;
+}
+
+.purple {
+  color: #37078f;
+}
+
+.green {
+  color: #0d9100;
+}
+
+.grey {
+  color: #5d605d;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
