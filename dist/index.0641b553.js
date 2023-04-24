@@ -594,12 +594,14 @@ function errorHandling(e) {
 }
 function mapCountryArrayInnerHTML(array) {
     array.map((country)=>{
+        //destructuring:
+        const { flag , region , name , population  } = country;
         countryList.innerHTML += `<li>
                     <div class="row-country">
-                    <span>${country.flag}</span>
-                    <h4 class="${switchRegionForColor(country.region)}">${country.name.common}</h4>
+                    <span>${flag}</span>
+                    <h4 class="${switchRegionForColor(region)}">${name.common}</h4>
                     </div>
-                    <p>Has a population of ${country.population} people</p>
+                    <p>Has a population of ${population} people</p>
                     </li>`;
     });
 }
