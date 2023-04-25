@@ -1,0 +1,95 @@
+:root {
+  --bg: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-container {
+  width: 100%;
+  display: flex;
+}
+
+.inner-container {
+  text-align: center;
+  flex-direction: column;
+  flex: 1200px;
+  align-items: center;
+  margin-inline: 1rem;
+  display: flex;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: Comic Sans MS, serif;
+  font-weight: lighter;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.error-message {
+  color: red;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.columns {
+  column-count: 3;
+  column-width: 25em;
+  background-color: var(--bg);
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 25px;
+  list-style: none;
+}
+
+.row-country {
+  flex-direction: row;
+  display: flex;
+}
+
+li {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  display: flex;
+  overflow: auto;
+}
+
+.blue {
+  color: #034791;
+}
+
+.red {
+  color: #b61603;
+}
+
+.yellow {
+  color: #f6da06;
+}
+
+.purple {
+  color: #37078f;
+}
+
+.green {
+  color: #0d9100;
+}
+
+.grey {
+  color: #5d605d;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

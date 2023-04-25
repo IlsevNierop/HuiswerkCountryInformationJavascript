@@ -1,0 +1,122 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Country information
+        etc.
+    5. Media Queries
+////////////////////////*/
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+:root {
+    --bg: #F4F4F4;
+}
+
+/*CSS reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer-container {
+    display: flex;
+    width: 100%;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 1200px;
+    margin-inline: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+/* --------------- 3.1 Reusables ----------------------- */
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+h1 {
+   font-family: "Comic Sans MS", serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+/* --------------- 4.2 Country information ------------------- */
+img {
+    max-width: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.error-message {
+    color: red;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.columns {
+    column-count:3;
+    column-width:25em;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: var(--bg);
+    padding: 25px;
+    list-style: none;
+}
+
+.row-country {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+
+.blue {
+    color: #034791;
+}
+.red {
+    color: #B61603;
+}
+.yellow {
+    color: #F6DA06;
+}
+.purple {
+    color: #37078F;
+}
+.green {
+    color: #0D9100;
+}
+.grey {
+    color: #5D605D;
+}
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
+
