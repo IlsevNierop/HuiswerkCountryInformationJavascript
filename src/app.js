@@ -8,26 +8,21 @@ const errorMessage = document.getElementById("error");
 function switchRegionForColor(region) {
     switch (region) {
         case "Africa":
-            region = "blue";
-            break;
+            return "blue";
         case "Asia":
-            region = "red";
-            break;
+            return "red";
         case "Europe":
-            region = "yellow";
-            break;
+            return "yellow";
         case "Oceania":
-            region = "purple";
-            break;
+            return "purple";
         case "Americas":
-            region = "green";
-            break;
-
+            return "green";
         case "Antarctic":
-            region = "grey";
-            break;
+            return "grey";
+        default:
+            return "grey";
     }
-    return region;
+
 }
 
 function errorHandling(e) {
@@ -69,6 +64,7 @@ async function fetchCountries() {
 }
 
 void fetchCountries();
+
 
 
 
